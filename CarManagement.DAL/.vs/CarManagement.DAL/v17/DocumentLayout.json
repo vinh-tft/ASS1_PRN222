@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Ass1\\CarManagement.DAL\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{51892CE5-C4C8-4BC5-9314-514C4D0D043B}|..\\CarManagement.BLL\\CarManagement.BLL.csproj|d:\\ass1\\carmanagement.bll\\services\\carservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFE088D9-4CA3-407E-AD81-E12AD95ECF01}|CarManagement.DAL\\CarManagement.DAL.csproj|d:\\ass1\\carmanagement.dal\\carmanagement.dal\\repositories\\carrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFE088D9-4CA3-407E-AD81-E12AD95ECF01}|CarManagement.DAL\\CarManagement.DAL.csproj|solutionrelative:carmanagement.dal\\repositories\\carrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77F7CED9-692D-46B5-9D9E-5FBB4668BA71}|..\\BusinessObject\\BusinessObject.csproj|d:\\ass1\\businessobject\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CarServices.cs",
+              "DocumentMoniker": "D:\\Ass1\\CarManagement.BLL\\Services\\CarServices.cs",
+              "RelativeDocumentMoniker": "..\\CarManagement.BLL\\Services\\CarServices.cs",
+              "ToolTip": "D:\\Ass1\\CarManagement.BLL\\Services\\CarServices.cs",
+              "RelativeToolTip": "..\\CarManagement.BLL\\Services\\CarServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T07:11:28.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CarRepo.cs",
+              "DocumentMoniker": "D:\\Ass1\\CarManagement.DAL\\CarManagement.DAL\\Repositories\\CarRepo.cs",
+              "RelativeDocumentMoniker": "CarManagement.DAL\\Repositories\\CarRepo.cs",
+              "ToolTip": "D:\\Ass1\\CarManagement.DAL\\CarManagement.DAL\\Repositories\\CarRepo.cs",
+              "RelativeToolTip": "CarManagement.DAL\\Repositories\\CarRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T07:10:53.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Models.cs",
+              "DocumentMoniker": "D:\\Ass1\\BusinessObject\\Models.cs",
+              "RelativeDocumentMoniker": "..\\BusinessObject\\Models.cs",
+              "ToolTip": "D:\\Ass1\\BusinessObject\\Models.cs",
+              "RelativeToolTip": "..\\BusinessObject\\Models.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T07:05:18.271Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
