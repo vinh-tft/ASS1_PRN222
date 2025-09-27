@@ -1,24 +1,33 @@
-﻿using System.Text;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+﻿using System.Windows;
+using CarManagement.BLL.Services;
+using CarManagement.BLL.Services.Interface;
+using CarManagement.DAL.Repositories;
+using Microsoft.EntityFrameworkCore;
 
 namespace CarManagement
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
-    public partial class MainWindow : Window
+    public partial class App : Application
     {
-        public MainWindow()
+        // Service dùng chung cho toàn bộ app
+        public static ICarService CarService { get; private set; }
+
+        protected override void OnStartup(StartupEventArgs e)
         {
-            InitializeComponent();
+            base.OnStartup(e);
+
+            // 👉 Kết nối SQL Server
+            var options = new DbContextOptionsBuilder<MyDbContext>()
+                .UseSqlServer("Server=.;Database=CarDB;Trusted_Connection=True;TrustServerCertificate=True")
+                .Options;
+
+            var dbContext = new MyDbContext(options);
+
+            // Tạo DB và seed data nếu chưa có
+            dbContext.Database.EnsureCreated();
+
+            // Khởi tạo repository + service
+            var repo = new CarRepository(dbContext);
+            CarService = new CarService(repo);
         }
     }
 }

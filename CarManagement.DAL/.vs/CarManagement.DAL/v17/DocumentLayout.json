@@ -1,16 +1,45 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Ass1\\CarManagement.DAL\\",
+  "WorkspaceRootPath": "C:\\Users\\ADMIN\\source\\repos\\ASS1_PRN222\\CarManagement.DAL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{51892CE5-C4C8-4BC5-9314-514C4D0D043B}|..\\CarManagement.BLL\\CarManagement.BLL.csproj|d:\\ass1\\carmanagement.bll\\services\\carservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{77F7CED9-692D-46B5-9D9E-5FBB4668BA71}|..\\BusinessObject\\BusinessObject.csproj|c:\\users\\admin\\source\\repos\\ass1_prn222\\businessobject\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFE088D9-4CA3-407E-AD81-E12AD95ECF01}|CarManagement.DAL\\CarManagement.DAL.csproj|d:\\ass1\\carmanagement.dal\\carmanagement.dal\\repositories\\carrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFE088D9-4CA3-407E-AD81-E12AD95ECF01}|CarManagement.DAL\\CarManagement.DAL.csproj|solutionrelative:carmanagement.dal\\repositories\\carrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{51892CE5-C4C8-4BC5-9314-514C4D0D043B}|..\\CarManagement.BLL\\CarManagement.BLL.csproj|c:\\users\\admin\\source\\repos\\ass1_prn222\\carmanagement.bll\\services\\interface\\icarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77F7CED9-692D-46B5-9D9E-5FBB4668BA71}|..\\BusinessObject\\BusinessObject.csproj|d:\\ass1\\businessobject\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{51892CE5-C4C8-4BC5-9314-514C4D0D043B}|..\\CarManagement.BLL\\CarManagement.BLL.csproj|c:\\users\\admin\\source\\repos\\ass1_prn222\\carmanagement.bll\\services\\deploy\\carservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDFA188C-FF90-46A2-A26D-5060F1CBE599}|CarManagement\\CarManagement.csproj|c:\\users\\admin\\source\\repos\\ass1_prn222\\carmanagement.dal\\carmanagement\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDFA188C-FF90-46A2-A26D-5060F1CBE599}|CarManagement\\CarManagement.csproj|solutionrelative:carmanagement\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDFA188C-FF90-46A2-A26D-5060F1CBE599}|CarManagement\\CarManagement.csproj|c:\\users\\admin\\source\\repos\\ass1_prn222\\carmanagement.dal\\carmanagement\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDFA188C-FF90-46A2-A26D-5060F1CBE599}|CarManagement\\CarManagement.csproj|solutionrelative:carmanagement\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77F7CED9-692D-46B5-9D9E-5FBB4668BA71}|..\\BusinessObject\\BusinessObject.csproj|c:\\users\\admin\\source\\repos\\ass1_prn222\\businessobject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDFA188C-FF90-46A2-A26D-5060F1CBE599}|CarManagement\\CarManagement.csproj|c:\\users\\admin\\source\\repos\\ass1_prn222\\carmanagement.dal\\carmanagement\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BDFA188C-FF90-46A2-A26D-5060F1CBE599}|CarManagement\\CarManagement.csproj|solutionrelative:carmanagement\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFE088D9-4CA3-407E-AD81-E12AD95ECF01}|CarManagement.DAL\\CarManagement.DAL.csproj|c:\\users\\admin\\source\\repos\\ass1_prn222\\carmanagement.dal\\carmanagement.dal\\repositories\\deploy\\carrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFE088D9-4CA3-407E-AD81-E12AD95ECF01}|CarManagement.DAL\\CarManagement.DAL.csproj|solutionrelative:carmanagement.dal\\repositories\\deploy\\carrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFE088D9-4CA3-407E-AD81-E12AD95ECF01}|CarManagement.DAL\\CarManagement.DAL.csproj|c:\\users\\admin\\source\\repos\\ass1_prn222\\carmanagement.dal\\carmanagement.dal\\repositories\\interface\\icarrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFE088D9-4CA3-407E-AD81-E12AD95ECF01}|CarManagement.DAL\\CarManagement.DAL.csproj|solutionrelative:carmanagement.dal\\repositories\\interface\\icarrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDFA188C-FF90-46A2-A26D-5060F1CBE599}|CarManagement\\CarManagement.csproj|c:\\users\\admin\\source\\repos\\ass1_prn222\\carmanagement.dal\\carmanagement\\carmanagement.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BDFA188C-FF90-46A2-A26D-5060F1CBE599}|CarManagement\\CarManagement.csproj|solutionrelative:carmanagement\\carmanagement.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77F7CED9-692D-46B5-9D9E-5FBB4668BA71}|..\\BusinessObject\\BusinessObject.csproj|c:\\users\\admin\\source\\repos\\ass1_prn222\\businessobject\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,46 +49,151 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 9,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CarServices.cs",
-              "DocumentMoniker": "D:\\Ass1\\CarManagement.BLL\\Services\\CarServices.cs",
-              "RelativeDocumentMoniker": "..\\CarManagement.BLL\\Services\\CarServices.cs",
-              "ToolTip": "D:\\Ass1\\CarManagement.BLL\\Services\\CarServices.cs",
-              "RelativeToolTip": "..\\CarManagement.BLL\\Services\\CarServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T07:11:28.894Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CarRepo.cs",
-              "DocumentMoniker": "D:\\Ass1\\CarManagement.DAL\\CarManagement.DAL\\Repositories\\CarRepo.cs",
-              "RelativeDocumentMoniker": "CarManagement.DAL\\Repositories\\CarRepo.cs",
-              "ToolTip": "D:\\Ass1\\CarManagement.DAL\\CarManagement.DAL\\Repositories\\CarRepo.cs",
-              "RelativeToolTip": "CarManagement.DAL\\Repositories\\CarRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\ASS1_PRN222\\CarManagement.DAL\\CarManagement\\App.xaml.cs",
+              "RelativeDocumentMoniker": "CarManagement\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\ASS1_PRN222\\CarManagement.DAL\\CarManagement\\App.xaml.cs",
+              "RelativeToolTip": "CarManagement\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T07:10:53.672Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-27T07:39:39.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\ASS1_PRN222\\BusinessObject\\Program.cs",
+              "RelativeDocumentMoniker": "..\\BusinessObject\\Program.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\ASS1_PRN222\\BusinessObject\\Program.cs",
+              "RelativeToolTip": "..\\BusinessObject\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T07:38:20.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\ASS1_PRN222\\CarManagement.DAL\\CarManagement\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "CarManagement\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\ASS1_PRN222\\CarManagement.DAL\\CarManagement\\MainWindow.xaml",
+              "RelativeToolTip": "CarManagement\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-27T06:18:09.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\ASS1_PRN222\\CarManagement.DAL\\CarManagement\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "CarManagement\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\ASS1_PRN222\\CarManagement.DAL\\CarManagement\\MainWindow.xaml.cs",
+              "RelativeToolTip": "CarManagement\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T06:17:14.876Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Models.cs",
-              "DocumentMoniker": "D:\\Ass1\\BusinessObject\\Models.cs",
-              "RelativeDocumentMoniker": "..\\BusinessObject\\Models.cs",
-              "ToolTip": "D:\\Ass1\\BusinessObject\\Models.cs",
-              "RelativeToolTip": "..\\BusinessObject\\Models.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAARAAAAAAAAAA==",
+              "Title": "CarService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\ASS1_PRN222\\CarManagement.BLL\\Services\\Deploy\\CarService.cs",
+              "RelativeDocumentMoniker": "..\\CarManagement.BLL\\Services\\Deploy\\CarService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\ASS1_PRN222\\CarManagement.BLL\\Services\\Deploy\\CarService.cs",
+              "RelativeToolTip": "..\\CarManagement.BLL\\Services\\Deploy\\CarService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T07:05:18.271Z",
+              "WhenOpened": "2025-09-27T06:10:15.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ICarService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\ASS1_PRN222\\CarManagement.BLL\\Services\\Interface\\ICarService.cs",
+              "RelativeDocumentMoniker": "..\\CarManagement.BLL\\Services\\Interface\\ICarService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\ASS1_PRN222\\CarManagement.BLL\\Services\\Interface\\ICarService.cs",
+              "RelativeToolTip": "..\\CarManagement.BLL\\Services\\Interface\\ICarService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T06:09:18.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MyDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\ASS1_PRN222\\BusinessObject\\MyDbContext.cs",
+              "RelativeDocumentMoniker": "..\\BusinessObject\\MyDbContext.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\ASS1_PRN222\\BusinessObject\\MyDbContext.cs",
+              "RelativeToolTip": "..\\BusinessObject\\MyDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T06:02:25.962Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CarManagement.csproj",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Source\\Repos\\ASS1_PRN222\\CarManagement.DAL\\CarManagement\\CarManagement.csproj",
+              "RelativeDocumentMoniker": "CarManagement\\CarManagement.csproj",
+              "ToolTip": "C:\\Users\\ADMIN\\Source\\Repos\\ASS1_PRN222\\CarManagement.DAL\\CarManagement\\CarManagement.csproj",
+              "RelativeToolTip": "CarManagement\\CarManagement.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-27T05:55:16.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CarRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\ASS1_PRN222\\CarManagement.DAL\\CarManagement.DAL\\Repositories\\Deploy\\CarRepository.cs",
+              "RelativeDocumentMoniker": "CarManagement.DAL\\Repositories\\Deploy\\CarRepository.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\ASS1_PRN222\\CarManagement.DAL\\CarManagement.DAL\\Repositories\\Deploy\\CarRepository.cs",
+              "RelativeToolTip": "CarManagement.DAL\\Repositories\\Deploy\\CarRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T05:38:35.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ICarRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\ASS1_PRN222\\CarManagement.DAL\\CarManagement.DAL\\Repositories\\Interface\\ICarRepository.cs",
+              "RelativeDocumentMoniker": "CarManagement.DAL\\Repositories\\Interface\\ICarRepository.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\ASS1_PRN222\\CarManagement.DAL\\CarManagement.DAL\\Repositories\\Interface\\ICarRepository.cs",
+              "RelativeToolTip": "CarManagement.DAL\\Repositories\\Interface\\ICarRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T05:35:08.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Models.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\ASS1_PRN222\\BusinessObject\\Models.cs",
+              "RelativeDocumentMoniker": "..\\BusinessObject\\Models.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\ASS1_PRN222\\BusinessObject\\Models.cs",
+              "RelativeToolTip": "..\\BusinessObject\\Models.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T04:17:53.849Z"
             }
           ]
         }

@@ -1,12 +1,32 @@
 ﻿<Window x:Class="CarManagement.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:CarManagement"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="Car Management" Height="500" Width="800"
+        Loaded="Window_Loaded">
 
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Danh sách xe -->
+        <GroupBox Header="Danh sách xe" Grid.Column="0" Margin="5">
+            <ListBox x:Name="CarListBox"
+                     DisplayMemberPath="Name"
+                     SelectionMode="Extended"
+                     SelectionChanged="CarListBox_SelectionChanged"/>
+        </GroupBox>
+
+        <!-- Thông tin 2 xe -->
+        <GroupBox Header="So sánh xe" Grid.Column="1" Margin="5">
+            <StackPanel>
+                <TextBlock Text="Xe 1:" FontWeight="Bold" />
+                <TextBlock x:Name="Car1Info" Text="Chưa chọn" Margin="0,0,0,10"/>
+
+                <TextBlock Text="Xe 2:" FontWeight="Bold" />
+                <TextBlock x:Name="Car2Info" Text="Chưa chọn"/>
+            </StackPanel>
+        </GroupBox>
     </Grid>
 </Window>

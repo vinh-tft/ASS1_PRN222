@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace BusinessObject.Models;
 
-public partial class Car
+public  class Car
 {
     public int Id { get; set; }
 

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BusinessObject
 {
-    public class Models
+    public class Model
     {
     }
 }
