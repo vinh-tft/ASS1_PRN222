@@ -1,11 +1,11 @@
-﻿using System.IO;
-using System.Windows;
-using BusinessObject.Models;
+﻿using BusinessObject.Models;
 using CarManagement.BLL.Services;
 using CarManagement.DAL.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using System.IO;
+using System.Windows;
 
 namespace CarManagement
 {
@@ -21,7 +21,7 @@ namespace CarManagement
 
 
             var configuration = new ConfigurationBuilder()
-                .SetBasePath(Directory.GetCurrentDirectory()) 
+                .SetBasePath(Directory.GetCurrentDirectory())
                 .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
                 .Build();
 

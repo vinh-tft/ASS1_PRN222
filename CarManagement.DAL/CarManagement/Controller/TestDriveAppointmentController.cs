@@ -1,7 +1,5 @@
 ﻿using BusinessObject.Models;
 using CarManagement.BLL.Services;
-using System;
-using System.Collections.Generic;
 using System.Windows;
 
 namespace CarManagement.Controller

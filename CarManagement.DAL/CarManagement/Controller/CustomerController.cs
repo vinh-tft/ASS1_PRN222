@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Windows;
-using BusinessObject.Models;
+﻿using BusinessObject.Models;
 using CarManagement.BLL.Services;
 using CarManagement.DAL.Repositories;
+using System.Windows;
 
 namespace CarManagement
 {

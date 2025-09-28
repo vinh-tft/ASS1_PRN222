@@ -1,5 +1,4 @@
-﻿using System;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Controls;
 
 
@@ -18,25 +17,25 @@ namespace CarManagement
         }
 
         private void BtnAdd_Click(object sender, RoutedEventArgs e)
-{
-    var addWindow = new AddCustomerWindow
-    {
-        Owner = this
-    };
-
-    if (addWindow.ShowDialog() == true)
-    {
-        var customer = new BusinessObject.Models.Customer
         {
-            FullName = addWindow.FullName,
-            Phone = string.IsNullOrWhiteSpace(addWindow.Phone) ? null : addWindow.Phone,
-            Email = string.IsNullOrWhiteSpace(addWindow.Email) ? null : addWindow.Email,
-            CreatedAt = DateTime.Now
-        };
+            var addWindow = new AddCustomerWindow
+            {
+                Owner = this
+            };
 
-        _controller.AddCustomer(customer);
-    }
-}
+            if (addWindow.ShowDialog() == true)
+            {
+                var customer = new BusinessObject.Models.Customer
+                {
+                    FullName = addWindow.FullName,
+                    Phone = string.IsNullOrWhiteSpace(addWindow.Phone) ? null : addWindow.Phone,
+                    Email = string.IsNullOrWhiteSpace(addWindow.Email) ? null : addWindow.Email,
+                    CreatedAt = DateTime.Now
+                };
+
+                _controller.AddCustomer(customer);
+            }
+        }
 
 
         private void BtnView_Click(object sender, RoutedEventArgs e)
