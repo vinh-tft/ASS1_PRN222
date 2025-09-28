@@ -4,12 +4,22 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.14.36414.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarManagement.DAL", "CarManagement.DAL\CarManagement.DAL.csproj", "{BFE088D9-4CA3-407E-AD81-E12AD95ECF01}"
+	ProjectSection(ProjectDependencies) = postProject
+		{77F7CED9-692D-46B5-9D9E-5FBB4668BA71} = {77F7CED9-692D-46B5-9D9E-5FBB4668BA71}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarManagement.BLL", "..\CarManagement.BLL\CarManagement.BLL.csproj", "{51892CE5-C4C8-4BC5-9314-514C4D0D043B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BFE088D9-4CA3-407E-AD81-E12AD95ECF01} = {BFE088D9-4CA3-407E-AD81-E12AD95ECF01}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessObject", "..\BusinessObject\BusinessObject.csproj", "{77F7CED9-692D-46B5-9D9E-5FBB4668BA71}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarManagement", "CarManagement\CarManagement.csproj", "{BDFA188C-FF90-46A2-A26D-5060F1CBE599}"
+	ProjectSection(ProjectDependencies) = postProject
+		{51892CE5-C4C8-4BC5-9314-514C4D0D043B} = {51892CE5-C4C8-4BC5-9314-514C4D0D043B}
+		{77F7CED9-692D-46B5-9D9E-5FBB4668BA71} = {77F7CED9-692D-46B5-9D9E-5FBB4668BA71}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,6 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+
+
+using Microsoft.Extensions.Configuration.Json;
 
 namespace BusinessObject.Models;
 
@@ -25,9 +29,27 @@ public partial class CarDealerDbContext : DbContext
 
     public virtual DbSet<User> Users { get; set; }
 
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Server=localhost;Database=CarDealerDB;Trusted_Connection=True;TrustServerCertificate=True;");
+//    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+//#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
+//        => optionsBuilder.UseSqlServer("Server=localhost;Database=CarDealerDB;Trusted_Connection=True;TrustServerCertificate=True;");
+protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+{
+    if (!optionsBuilder.IsConfigured)
+    {
+        optionsBuilder.UseSqlServer(
+            GetConnectionString());
+    }
+}
+private string GetConnectionString()
+{
+    IConfiguration config = new ConfigurationBuilder()
+        .SetBasePath(AppContext.BaseDirectory)
+        .AddJsonFile("appsettings.json", true, true)
+        .Build();
+    var strConn = config["ConnectionStrings:DefaultConnection"];
+
+    return strConn;
+}
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -57,12 +79,13 @@ public partial class CarDealerDbContext : DbContext
 
         modelBuilder.Entity<Role>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Roles__3214EC0729CC24E8");
+            entity.HasKey(e => e.Id).HasName("PK__Roles__3214EC07");
 
-            entity.HasIndex(e => e.RoleName, "UQ__Roles__8A2B61605453BA2F").IsUnique();
+            entity.HasIndex(e => e.RoleName, "UQ__Roles__8A2B6160").IsUnique();
 
             entity.Property(e => e.RoleName).HasMaxLength(50);
         });
+
 
         modelBuilder.Entity<TestDriveAppointment>(entity =>
         {

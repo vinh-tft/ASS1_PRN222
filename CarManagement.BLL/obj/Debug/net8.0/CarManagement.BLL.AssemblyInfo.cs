@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CarManagement.BLL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5a125f0949c4a6303f7dc60398a969ec93936eb5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ae9f173e02a5f2ec7810bc951222c67ce77d350f")]
 [assembly: System.Reflection.AssemblyProductAttribute("CarManagement.BLL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CarManagement.BLL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
