@@ -1,0 +1,23 @@
+# Build results
+bin/
+obj/
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+
+# NuGet packages
+*.nupkg
+**/packages/*
+!**/packages/build/
+
+# Visual Studio Code settings
+.vscode/
+
+# Others
+*.cache
+*.log
+*.tmp
+*.db
+*.bak

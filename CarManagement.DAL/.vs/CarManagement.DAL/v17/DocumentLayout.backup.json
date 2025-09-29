@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\ASS1_PRN222\\CarManagement.DAL\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BDFA188C-FF90-46A2-A26D-5060F1CBE599}|CarManagement\\CarManagement.csproj|c:\\users\\admin\\source\\repos\\ass1_prn222\\carmanagement.dal\\carmanagement\\carform.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDFA188C-FF90-46A2-A26D-5060F1CBE599}|CarManagement\\CarManagement.csproj|solutionrelative:carmanagement\\carform.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BFE088D9-4CA3-407E-AD81-E12AD95ECF01}|CarManagement.DAL\\CarManagement.DAL.csproj|c:\\users\\admin\\source\\repos\\ass1_prn222\\carmanagement.dal\\carmanagement.dal\\repositories\\itestdriveappointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BFE088D9-4CA3-407E-AD81-E12AD95ECF01}|CarManagement.DAL\\CarManagement.DAL.csproj|solutionrelative:carmanagement.dal\\repositories\\itestdriveappointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -111,11 +115,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 20,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "CarForm.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ASS1_PRN222\\CarManagement.DAL\\CarManagement\\CarForm.xaml.cs",
+              "RelativeDocumentMoniker": "CarManagement\\CarForm.xaml.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ASS1_PRN222\\CarManagement.DAL\\CarManagement\\CarForm.xaml.cs",
+              "RelativeToolTip": "CarManagement\\CarForm.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T03:29:12.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "CarManagement.csproj",
               "DocumentMoniker": "C:\\Users\\Admin\\Source\\Repos\\ASS1_PRN222\\CarManagement.DAL\\CarManagement\\CarManagement.csproj",
               "RelativeDocumentMoniker": "CarManagement\\CarManagement.csproj",
@@ -127,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "AddCustomerWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ASS1_PRN222\\CarManagement.DAL\\CarManagement\\AddCustomerWindow.xaml",
               "RelativeDocumentMoniker": "CarManagement\\AddCustomerWindow.xaml",
@@ -138,7 +155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "XamlReader.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\AppData\\Local\\Temp\\.vsdbgsrc\\811f0c1102ba7a3d32ee827d0bb52f1af2ec958c7f3fb7abe7c05f601195e6c8\\XamlReader.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\811f0c1102ba7a3d32ee827d0bb52f1af2ec958c7f3fb7abe7c05f601195e6c8\\XamlReader.cs",
@@ -151,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "UserServices.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ASS1_PRN222\\CarManagement.BLL\\Services\\UserServices.cs",
               "RelativeDocumentMoniker": "..\\CarManagement.BLL\\Services\\UserServices.cs",
@@ -163,7 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ASS1_PRN222\\CarManagement.DAL\\CarManagement\\appsettings.json",
               "RelativeDocumentMoniker": "CarManagement\\appsettings.json",
@@ -175,7 +192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Customer.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ASS1_PRN222\\BusinessObject\\Models\\Customer.cs",
               "RelativeDocumentMoniker": "..\\BusinessObject\\Models\\Customer.cs",
@@ -187,7 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "CarDealerDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ASS1_PRN222\\BusinessObject\\Models\\CarDealerDbContext.cs",
               "RelativeDocumentMoniker": "..\\BusinessObject\\Models\\CarDealerDbContext.cs",
@@ -199,7 +216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "TestDriveAppointment.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ASS1_PRN222\\BusinessObject\\Models\\TestDriveAppointment.cs",
               "RelativeDocumentMoniker": "..\\BusinessObject\\Models\\TestDriveAppointment.cs",
@@ -211,7 +228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "CustomerService.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ASS1_PRN222\\CarManagement.BLL\\Services\\CustomerService.cs",
               "RelativeDocumentMoniker": "..\\CarManagement.BLL\\Services\\CustomerService.cs",
@@ -223,7 +240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "CustomerRepository.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ASS1_PRN222\\CarManagement.DAL\\CarManagement.DAL\\Repositories\\CustomerRepository.cs",
               "RelativeDocumentMoniker": "CarManagement.DAL\\Repositories\\CustomerRepository.cs",
@@ -235,7 +252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "CustomerController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ASS1_PRN222\\CarManagement.DAL\\CarManagement\\Controller\\CustomerController.cs",
               "RelativeDocumentMoniker": "CarManagement\\Controller\\CustomerController.cs",
@@ -247,7 +264,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "CarServices.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ASS1_PRN222\\CarManagement.BLL\\Services\\CarServices.cs",
               "RelativeDocumentMoniker": "..\\CarManagement.BLL\\Services\\CarServices.cs",
@@ -259,7 +276,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ASS1_PRN222\\CarManagement.DAL\\CarManagement\\App.xaml",
               "RelativeDocumentMoniker": "CarManagement\\App.xaml",
@@ -270,7 +287,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "TestDriveAppointmentView.xaml",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ASS1_PRN222\\CarManagement.DAL\\CarManagement\\TestDriveAppointmentView.xaml",
               "RelativeDocumentMoniker": "CarManagement\\TestDriveAppointmentView.xaml",
@@ -281,7 +298,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "TestDriveAppointmentWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ASS1_PRN222\\CarManagement.DAL\\CarManagement\\TestDriveAppointmentWindow.xaml.cs",
               "RelativeDocumentMoniker": "CarManagement\\TestDriveAppointmentWindow.xaml.cs",
@@ -293,7 +310,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "TestDriveAppointmentWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ASS1_PRN222\\CarManagement.DAL\\CarManagement\\TestDriveAppointmentWindow.xaml",
               "RelativeDocumentMoniker": "CarManagement\\TestDriveAppointmentWindow.xaml",
@@ -304,7 +321,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "TestDriveAppointmentController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ASS1_PRN222\\CarManagement.DAL\\CarManagement\\Controller\\TestDriveAppointmentController.cs",
               "RelativeDocumentMoniker": "CarManagement\\Controller\\TestDriveAppointmentController.cs",
@@ -316,7 +333,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "TestDriveAppointmentService.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ASS1_PRN222\\CarManagement.BLL\\Services\\TestDriveAppointmentService.cs",
               "RelativeDocumentMoniker": "..\\CarManagement.BLL\\Services\\TestDriveAppointmentService.cs",
@@ -328,7 +345,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "TestDriveAppointmentView.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ASS1_PRN222\\CarManagement.DAL\\CarManagement\\TestDriveAppointmentView.xaml.cs",
               "RelativeDocumentMoniker": "CarManagement\\TestDriveAppointmentView.xaml.cs",
@@ -340,7 +357,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "TestDriveAppointmentRepository.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ASS1_PRN222\\CarManagement.DAL\\CarManagement.DAL\\Repositories\\TestDriveAppointmentRepository.cs",
               "RelativeDocumentMoniker": "CarManagement.DAL\\Repositories\\TestDriveAppointmentRepository.cs",
@@ -352,7 +369,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ITestDriveAppointmentRepository.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ASS1_PRN222\\CarManagement.DAL\\CarManagement.DAL\\Repositories\\ITestDriveAppointmentRepository.cs",
               "RelativeDocumentMoniker": "CarManagement.DAL\\Repositories\\ITestDriveAppointmentRepository.cs",
@@ -365,7 +382,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "UserRepo.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ASS1_PRN222\\CarManagement.DAL\\CarManagement.DAL\\Repositories\\UserRepo.cs",
               "RelativeDocumentMoniker": "CarManagement.DAL\\Repositories\\UserRepo.cs",
@@ -377,7 +394,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "CarManagement.DAL.csproj",
               "DocumentMoniker": "C:\\Users\\Admin\\Source\\Repos\\ASS1_PRN222\\CarManagement.DAL\\CarManagement.DAL\\CarManagement.DAL.csproj",
               "RelativeDocumentMoniker": "CarManagement.DAL\\CarManagement.DAL.csproj",
@@ -389,7 +406,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "CarManagement.BLL.csproj",
               "DocumentMoniker": "C:\\Users\\Admin\\Source\\Repos\\ASS1_PRN222\\CarManagement.BLL\\CarManagement.BLL.csproj",
               "RelativeDocumentMoniker": "..\\CarManagement.BLL\\CarManagement.BLL.csproj",
@@ -401,7 +418,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ASS1_PRN222\\CarManagement.DAL\\CarManagement.DAL\\Program.cs",
               "RelativeDocumentMoniker": "CarManagement.DAL\\Program.cs",
@@ -413,7 +430,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "CarServices.cs",
               "DocumentMoniker": "D:\\Ass1\\CarManagement.BLL\\Services\\CarServices.cs",
               "ToolTip": "D:\\Ass1\\CarManagement.BLL\\Services\\CarServices.cs",
@@ -422,7 +439,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "CarRepo.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ASS1_PRN222\\CarManagement.DAL\\CarManagement.DAL\\Repositories\\CarRepo.cs",
               "RelativeDocumentMoniker": "CarManagement.DAL\\Repositories\\CarRepo.cs",
@@ -434,7 +451,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "Models.cs",
               "DocumentMoniker": "D:\\Ass1\\BusinessObject\\Models.cs",
               "ToolTip": "D:\\Ass1\\BusinessObject\\Models.cs",

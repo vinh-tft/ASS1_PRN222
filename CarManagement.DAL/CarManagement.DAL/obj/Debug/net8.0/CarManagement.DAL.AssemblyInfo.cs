@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CarManagement.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bdc252e978a1700c655f5cd88ef19db339035809")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c3544811c7ead835fb9b59b408a12ef1ae35da5f")]
 [assembly: System.Reflection.AssemblyProductAttribute("CarManagement.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CarManagement.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
